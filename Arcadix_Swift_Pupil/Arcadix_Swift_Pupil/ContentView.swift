@@ -15,10 +15,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                // Image(uiImage: ArcadixSwiftResourcesImageProvider.Media.tesla.image)
-                //     .resizable()
-                //     .scaledToFit()
-                // .frame(width: 100, height: 100)
+                Image(uiImage: ArcadixSwiftResourcesImageProvider.Media.tesla.image)
+                    .resizable()
+                    .scaledToFit()
+                .frame(width: 100, height: 100)
                 
                 Image(uiImage: ArcadixSwiftResourcesImageProvider.ExtranetPupilMedia.random2.image)
                     .resizable()
