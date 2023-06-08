@@ -20,10 +20,10 @@ struct ContentView: View {
                     .scaledToFit()
                 .frame(width: 100, height: 100)
                 
-                Image(uiImage: ArcadixSwiftResourcesImageProvider.ExtranetPupilMedia.random2.image)
-                    .resizable()
-                    .scaledToFit()
-                .frame(width: 100, height: 100)
+//                Image(uiImage: ArcadixSwiftResourcesImageProvider.ExtranetPupilMedia.random2.image)
+//                    .resizable()
+//                    .scaledToFit()
+//                .frame(width: 100, height: 100)
                 
                 Image(uiImage: ArcadixSwiftResourcesImageProvider.TestApplicationMedia.random1.image)
                     .resizable()
