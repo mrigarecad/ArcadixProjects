@@ -10,4 +10,7 @@
    <FileRef
       location = "group:Arcadix_Swift_Framework/Arcadix_Swift_Framework.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Arcadix_Swift_Pupil/../Arcadix_Swift_Object/Arcadix_Swift_Object.xcodeproj">
+   </FileRef>
 </Workspace>

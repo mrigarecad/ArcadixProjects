@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6919FC212A2DAEE500EB61ED /* Arcadix_Swift_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6919FC202A2DAEE500EB61ED /* Arcadix_Swift_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6919FC312A2DAF3500EB61ED /* TestFrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919FC302A2DAF3500EB61ED /* TestFrameworkView.swift */; };
-		691C1EE22A3344DB005E50D8 /* ArcadixFetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C1EE12A3344DB005E50D8 /* ArcadixFetchData.swift */; };
-		69BC211D2A2F553A008AE82E /* InitialDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC211C2A2F553A008AE82E /* InitialDataModel.swift */; };
+		691C1ECE2A3343CD005E50D8 /* Arcadix_Swift_Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 691C1ECD2A3343CD005E50D8 /* Arcadix_Swift_Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691C1EDE2A33449D005E50D8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C1EDD2A33449D005E50D8 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6919FC1D2A2DAEE500EB61ED /* Arcadix_Swift_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcadix_Swift_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6919FC202A2DAEE500EB61ED /* Arcadix_Swift_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arcadix_Swift_Framework.h; sourceTree = "<group>"; };
-		6919FC302A2DAF3500EB61ED /* TestFrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkView.swift; sourceTree = "<group>"; };
-		691C1EE12A3344DB005E50D8 /* ArcadixFetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadixFetchData.swift; sourceTree = "<group>"; };
-		69BC211C2A2F553A008AE82E /* InitialDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialDataModel.swift; sourceTree = "<group>"; };
+		691C1ECA2A3343CD005E50D8 /* Arcadix_Swift_Object.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcadix_Swift_Object.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691C1ECD2A3343CD005E50D8 /* Arcadix_Swift_Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arcadix_Swift_Object.h; sourceTree = "<group>"; };
+		691C1EDD2A33449D005E50D8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6919FC1A2A2DAEE500EB61ED /* Frameworks */ = {
+		691C1EC72A3343CD005E50D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,105 +28,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6919FC132A2DAEE500EB61ED = {
+		691C1EC02A3343CC005E50D8 = {
 			isa = PBXGroup;
 			children = (
-				6919FC1F2A2DAEE500EB61ED /* Arcadix_Swift_Framework */,
-				6919FC1E2A2DAEE500EB61ED /* Products */,
+				691C1ECC2A3343CD005E50D8 /* Arcadix_Swift_Object */,
+				691C1ECB2A3343CD005E50D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6919FC1E2A2DAEE500EB61ED /* Products */ = {
+		691C1ECB2A3343CD005E50D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6919FC1D2A2DAEE500EB61ED /* Arcadix_Swift_Framework.framework */,
+				691C1ECA2A3343CD005E50D8 /* Arcadix_Swift_Object.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6919FC1F2A2DAEE500EB61ED /* Arcadix_Swift_Framework */ = {
+		691C1ECC2A3343CD005E50D8 /* Arcadix_Swift_Object */ = {
 			isa = PBXGroup;
 			children = (
-				69BC211B2A2F3AFE008AE82E /* DataServices */,
-				69BC211A2A2F3AF7008AE82E /* Controls */,
-				6919FC202A2DAEE500EB61ED /* Arcadix_Swift_Framework.h */,
+				691C1EDA2A33442A005E50D8 /* Extranet */,
+				691C1ECD2A3343CD005E50D8 /* Arcadix_Swift_Object.h */,
 			);
-			path = Arcadix_Swift_Framework;
+			path = Arcadix_Swift_Object;
 			sourceTree = "<group>";
 		};
-		691C1EDF2A3344B8005E50D8 /* ArcadixFetchData */ = {
+		691C1EDA2A33442A005E50D8 /* Extranet */ = {
 			isa = PBXGroup;
 			children = (
-				691C1EE12A3344DB005E50D8 /* ArcadixFetchData.swift */,
+				691C1EDB2A334431005E50D8 /* Pupil */,
 			);
-			path = ArcadixFetchData;
+			path = Extranet;
 			sourceTree = "<group>";
 		};
-		69BC211A2A2F3AF7008AE82E /* Controls */ = {
+		691C1EDB2A334431005E50D8 /* Pupil */ = {
 			isa = PBXGroup;
 			children = (
-				6919FC302A2DAF3500EB61ED /* TestFrameworkView.swift */,
+				691C1EDC2A33447C005E50D8 /* Login */,
 			);
-			path = Controls;
+			path = Pupil;
 			sourceTree = "<group>";
 		};
-		69BC211B2A2F3AFE008AE82E /* DataServices */ = {
+		691C1EDC2A33447C005E50D8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				691C1EDF2A3344B8005E50D8 /* ArcadixFetchData */,
-				69BC211C2A2F553A008AE82E /* InitialDataModel.swift */,
+				691C1EDD2A33449D005E50D8 /* Login.swift */,
 			);
-			path = DataServices;
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6919FC182A2DAEE500EB61ED /* Headers */ = {
+		691C1EC52A3343CD005E50D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6919FC212A2DAEE500EB61ED /* Arcadix_Swift_Framework.h in Headers */,
+				691C1ECE2A3343CD005E50D8 /* Arcadix_Swift_Object.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6919FC1C2A2DAEE500EB61ED /* Arcadix_Swift_Framework */ = {
+		691C1EC92A3343CD005E50D8 /* Arcadix_Swift_Object */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6919FC242A2DAEE500EB61ED /* Build configuration list for PBXNativeTarget "Arcadix_Swift_Framework" */;
+			buildConfigurationList = 691C1ED12A3343CD005E50D8 /* Build configuration list for PBXNativeTarget "Arcadix_Swift_Object" */;
 			buildPhases = (
-				6919FC182A2DAEE500EB61ED /* Headers */,
-				6919FC192A2DAEE500EB61ED /* Sources */,
-				6919FC1A2A2DAEE500EB61ED /* Frameworks */,
-				6919FC1B2A2DAEE500EB61ED /* Resources */,
+				691C1EC52A3343CD005E50D8 /* Headers */,
+				691C1EC62A3343CD005E50D8 /* Sources */,
+				691C1EC72A3343CD005E50D8 /* Frameworks */,
+				691C1EC82A3343CD005E50D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Arcadix_Swift_Framework;
-			productName = Arcadix_Swift_Framework;
-			productReference = 6919FC1D2A2DAEE500EB61ED /* Arcadix_Swift_Framework.framework */;
+			name = Arcadix_Swift_Object;
+			productName = Arcadix_Swift_Object;
+			productReference = 691C1ECA2A3343CD005E50D8 /* Arcadix_Swift_Object.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6919FC142A2DAEE500EB61ED /* Project object */ = {
+		691C1EC12A3343CD005E50D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					6919FC1C2A2DAEE500EB61ED = {
+					691C1EC92A3343CD005E50D8 = {
 						CreatedOnToolsVersion = 14.1;
 						LastSwiftMigration = 1410;
 					};
 				};
 			};
-			buildConfigurationList = 6919FC172A2DAEE500EB61ED /* Build configuration list for PBXProject "Arcadix_Swift_Framework" */;
+			buildConfigurationList = 691C1EC42A3343CD005E50D8 /* Build configuration list for PBXProject "Arcadix_Swift_Object" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,18 +132,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 6919FC132A2DAEE500EB61ED;
-			productRefGroup = 6919FC1E2A2DAEE500EB61ED /* Products */;
+			mainGroup = 691C1EC02A3343CC005E50D8;
+			productRefGroup = 691C1ECB2A3343CD005E50D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6919FC1C2A2DAEE500EB61ED /* Arcadix_Swift_Framework */,
+				691C1EC92A3343CD005E50D8 /* Arcadix_Swift_Object */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6919FC1B2A2DAEE500EB61ED /* Resources */ = {
+		691C1EC82A3343CD005E50D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -159,20 +153,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6919FC192A2DAEE500EB61ED /* Sources */ = {
+		691C1EC62A3343CD005E50D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				691C1EE22A3344DB005E50D8 /* ArcadixFetchData.swift in Sources */,
-				69BC211D2A2F553A008AE82E /* InitialDataModel.swift in Sources */,
-				6919FC312A2DAF3500EB61ED /* TestFrameworkView.swift in Sources */,
+				691C1EDE2A33449D005E50D8 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6919FC222A2DAEE500EB61ED /* Debug */ = {
+		691C1ECF2A3343CD005E50D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		6919FC232A2DAEE500EB61ED /* Release */ = {
+		691C1ED02A3343CD005E50D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +284,7 @@
 			};
 			name = Release;
 		};
-		6919FC252A2DAEE500EB61ED /* Debug */ = {
+		691C1ED22A3343CD005E50D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -312,7 +304,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadix.Arcadix-Swift-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadix.Arcadix-Swift-Object";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -322,7 +314,7 @@
 			};
 			name = Debug;
 		};
-		6919FC262A2DAEE500EB61ED /* Release */ = {
+		691C1ED32A3343CD005E50D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -342,7 +334,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadix.Arcadix-Swift-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadix.Arcadix-Swift-Object";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -354,25 +346,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6919FC172A2DAEE500EB61ED /* Build configuration list for PBXProject "Arcadix_Swift_Framework" */ = {
+		691C1EC42A3343CD005E50D8 /* Build configuration list for PBXProject "Arcadix_Swift_Object" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6919FC222A2DAEE500EB61ED /* Debug */,
-				6919FC232A2DAEE500EB61ED /* Release */,
+				691C1ECF2A3343CD005E50D8 /* Debug */,
+				691C1ED02A3343CD005E50D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6919FC242A2DAEE500EB61ED /* Build configuration list for PBXNativeTarget "Arcadix_Swift_Framework" */ = {
+		691C1ED12A3343CD005E50D8 /* Build configuration list for PBXNativeTarget "Arcadix_Swift_Object" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6919FC252A2DAEE500EB61ED /* Debug */,
-				6919FC262A2DAEE500EB61ED /* Release */,
+				691C1ED22A3343CD005E50D8 /* Debug */,
+				691C1ED32A3343CD005E50D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6919FC142A2DAEE500EB61ED /* Project object */;
+	rootObject = 691C1EC12A3343CD005E50D8 /* Project object */;
 }
