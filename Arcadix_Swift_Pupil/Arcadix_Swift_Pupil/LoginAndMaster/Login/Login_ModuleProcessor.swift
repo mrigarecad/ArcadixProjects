@@ -13,7 +13,7 @@ class Login_ModuleProcessor : ObservableObject{
     
 //    let clientUrl = "https://lernende.lernen-codoc.ch"
     let clientUrl : String
-    
+     
     init(clientUrl: String) {
         self.clientUrl = clientUrl
     }
