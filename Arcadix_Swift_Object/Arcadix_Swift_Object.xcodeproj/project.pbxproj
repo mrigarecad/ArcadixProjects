@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		691C1ECE2A3343CD005E50D8 /* Arcadix_Swift_Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 691C1ECD2A3343CD005E50D8 /* Arcadix_Swift_Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		691C1EDE2A33449D005E50D8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C1EDD2A33449D005E50D8 /* Login.swift */; };
+		6956FE252A3360F200A06F47 /* Arcadix_Swift_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6956FE242A3360F200A06F47 /* Arcadix_Swift_Framework.framework */; };
+		6956FE262A3360F200A06F47 /* Arcadix_Swift_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6956FE242A3360F200A06F47 /* Arcadix_Swift_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6956FE272A3360F300A06F47 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6956FE262A3360F200A06F47 /* Arcadix_Swift_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		691C1ECA2A3343CD005E50D8 /* Arcadix_Swift_Object.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcadix_Swift_Object.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		691C1ECD2A3343CD005E50D8 /* Arcadix_Swift_Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arcadix_Swift_Object.h; sourceTree = "<group>"; };
 		691C1EDD2A33449D005E50D8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6956FE222A335E6800A06F47 /* Arcadix_Swift_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Arcadix_Swift_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6956FE242A3360F200A06F47 /* Arcadix_Swift_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Arcadix_Swift_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6956FE252A3360F200A06F47 /* Arcadix_Swift_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +52,7 @@
 			children = (
 				691C1ECC2A3343CD005E50D8 /* Arcadix_Swift_Object */,
 				691C1ECB2A3343CD005E50D8 /* Products */,
+				6956FE212A335E6800A06F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +97,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		6956FE212A335E6800A06F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6956FE242A3360F200A06F47 /* Arcadix_Swift_Framework.framework */,
+				6956FE222A335E6800A06F47 /* Arcadix_Swift_Framework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -99,6 +128,7 @@
 				691C1EC62A3343CD005E50D8 /* Sources */,
 				691C1EC72A3343CD005E50D8 /* Frameworks */,
 				691C1EC82A3343CD005E50D8 /* Resources */,
+				6956FE272A3360F300A06F47 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

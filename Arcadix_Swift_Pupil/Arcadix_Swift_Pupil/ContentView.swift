@@ -14,33 +14,34 @@ struct ContentView: View {
     @State private var users : User = User(name: "", email: "")
     var body: some View {
         VStack {
-            HStack {
+            Login()
+//            HStack {
 //                Image(uiImage: ArcadixSwiftResourcesImageProvider.Media.tesla.image)
 //                    .resizable()
 //                    .scaledToFit()
 //                .frame(width: 100, height: 100)
-                
-                Image(uiImage: ArcadixSwiftResourcesImageProvider.ExtranetPupilMedia.random2.image)
-                    .resizable()
-                    .scaledToFit()
-                .frame(width: 100, height: 100)
-                
-                Image(uiImage: ArcadixSwiftResourcesImageProvider.TestApplicationMedia.random1.image)
-                    .resizable()
-                    .scaledToFit()
-                .frame(width: 100, height: 100)
-            }
-            
-            Spacer()
-            
-            Text("Hello, Pupil App!")
-            
-            Spacer()
-            
-            TestFrameworkView(name: users.name, email: users.email)
+//
+//                Image(uiImage: ArcadixSwiftResourcesImageProvider.ExtranetPupilMedia.random2.image)
+//                    .resizable()
+//                    .scaledToFit()
+//                .frame(width: 100, height: 100)
+//
+//                Image(uiImage: ArcadixSwiftResourcesImageProvider.TestApplicationMedia.random1.image)
+//                    .resizable()
+//                    .scaledToFit()
+//                .frame(width: 100, height: 100)
+//            }
+//
+//            Spacer()
+//
+//            Text("Hello, Pupil App!")
+//
+//            Spacer()
+//
+//            TestFrameworkView(name: users.name, email: users.email)
         }
         .onAppear{
-            fetchUsers()
+//            fetchUsers()
         }
         .padding()
     }

@@ -7,10 +7,19 @@
 
 import SwiftUI
 
+
 struct Login: View {
+    
+    @ObservedObject var login_ModuleProcessor = Login_ModuleProcessor(clientUrl: "https://lernende.lernen-codoc.ch")
     var body: some View {
-        Text("Login push test!!!!!!")
+        VStack {
+            Text("Login push test!!!!!!")
+        }
+        .onAppear {
+            login_ModuleProcessor.GetInitialDataForPupilApp()
+        }
     }
+    
 }
 
 struct Login_Previews: PreviewProvider {
